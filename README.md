@@ -78,5 +78,5 @@ Lung-Hao Lee and Yi Lu (2021). Multiple Embeddings Enhanced Multi-Graph Neural N
 &emsp;&emsp;&emsp;&emsp;pages   = {2801 -2810},<br>
 &emsp;&emsp;&emsp;&emsp;month   = 7,<br>
 &emsp;&emsp;&emsp;&emsp;year    = 2021,<br>
-&emsp;&emsp;&emsp;&emsp;url     = {https://doi.org/10.1109/JBHI.2020.3048700}<br>
+&emsp;&emsp;&emsp;&emsp;url     = { https://doi.org/10.1109/JBHI.2020.3048700 }<br>
 }     
