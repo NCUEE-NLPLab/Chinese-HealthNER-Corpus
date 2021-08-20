@@ -67,7 +67,7 @@ A total of 10 entity types are described and some examples are provided in Table
 
 For more information please refer to our IEEE JBHI Paper: https://ieeexplore.ieee.org/document/9312396
 
-Lung-Hao Lee and Yi Lu (2021). Multiple Embeddings Enhanced Multi-Graph Neural Networks for Chinese Healthcare Named Entity Recognition. IEEE Journal of Biomedical and Health Informatics, volume 25, issue 7, July 2021.
+Lung-Hao Lee and Yi Lu (2021). Multiple Embeddings Enhanced Multi-Graph Neural Networks for Chinese Healthcare Named Entity Recognition. IEEE Journal of Biomedical and Health Informatics, 25(7), pp. 2801-2810.
 
 @ARTICLE{Lee-IEEEJBHI-2021,<br>
 &emsp;&emsp;&emsp;&emsp;author  = {Lung-Hao Lee and Yi Lu},<br>
