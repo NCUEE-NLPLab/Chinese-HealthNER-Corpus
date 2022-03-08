@@ -54,7 +54,7 @@ A total of 10 entity types are described and some examples are provided in Table
 &emsp;&emsp;&emsp;&emsp;"genre": "sm",<br>
 &emsp;&emsp;&emsp;&emsp;"sentence": "如何治療胃食道逆流症？",<br>
 &emsp;&emsp;&emsp;&emsp;"word": ["如何", "治療", "胃食道逆流症", "？"],<br>
-&emsp;&emsp;&emsp;&emsp;"word_label": ["O", "O", "DISE", "O"]<br>
+&emsp;&emsp;&emsp;&emsp;"word_label": ["O", "O", "DISE", "O"],<br>
 &emsp;&emsp;&emsp;&emsp;"character": ["如", "何", "治", "療", "胃", "食", "道", "逆", "流", "症", "？"],<br>
 &emsp;&emsp;&emsp;&emsp;"character_label": ["O", "O", "O", "O", "B-DISE", "I-DISE", "I-DISE", "I-DISE", "I-DISE", "I-DISE", "O"]<br>
 	
@@ -65,7 +65,7 @@ A total of 10 entity types are described and some examples are provided in Table
 &emsp;&emsp;&emsp;&emsp;"genre": "ft",<br>
 &emsp;&emsp;&emsp;&emsp;"sentence": "修復肌肉與骨骼最重要的便是熱量、蛋白質與鈣質。",<br>
 &emsp;&emsp;&emsp;&emsp;"word": ["修復", "肌肉", "與", "骨骼", "最", "重要", "的", "便是", "熱量", "、", "蛋白質", "與", "鈣質", "。"],<br>
-&emsp;&emsp;&emsp;&emsp;"word_label": ["O", "BODY", "O", "BODY", "O", "O", "O", "O", "O", "O", "CHEM", "O", "CHEM", "O"]<br>
+&emsp;&emsp;&emsp;&emsp;"word_label": ["O", "BODY", "O", "BODY", "O", "O", "O", "O", "O", "O", "CHEM", "O", "CHEM", "O"],<br>
 &emsp;&emsp;&emsp;&emsp;"character": ["修", "復", "肌", "肉", "與", "骨", "骼", "最", "重", "要", "的", "便", "是", "熱", "量", "、", "蛋", "白", "質", "與", "鈣", "質", "。"],<br>
 &emsp;&emsp;&emsp;&emsp;"character_label": ["O", "O", "B-BODY", "I-BODY", "O", "B-BODY", "I-BODY", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-CHEM", "I-CHEM", "I-CHEM", "O", "B-CHEM", "I-CHEM", "O"]<br>
 }<br>
