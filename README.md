@@ -19,7 +19,7 @@ A total of 10 entity types are described and some examples are provided in Table
 |Treatment<br>(治療)     |A method of behavior used to treat diseases.                                                                             |“藥物治療” (pharmacotherapy), “胃切除術” (gastrectomy), “標靶治療” (targeted therapy), “外科手術” (surgery)            |
 |Time<br>(時間)          |Element of existence measured in minutes, days, years.                                                                   |“ 嬰兒期 ” (infancy), “ 幼兒時期 ” (early childhood), “ 青春期 ”(adolescence), “生理期” (on one’s period), “孕期” (pregnancy)           |
 
-<br>In summary, our constructed Chinese HealthNER corpus includes 30,692 sentences with a total of around 1.5 million characters or 91.7 thousand words. Table 2 shows detailed statistics of mutually exclusive training and test sets. The entity type distribution in training and test sets is similar. The most common type was BODY (26,413 cases or 38.58% of the total), followed by the SYMP (12,904 cases), DISE (10,079 cases) and CHEM (6,834 cases). These 4 most common types of named entities thus accounted for about 82% of the total 68,460 entities, with the remaining 6 types accounting for 18%.<br><br>
+<br>In summary, our constructed Chinese HealthNER corpus includes 30,692 sentences with a total of around 1.5 million characters or 91.7 thousand words. Table 2 shows detailed statistics of mutually exclusive training and test sets. The entity type distribution in training and test sets is similar. The most common type was BODY (26,411 cases or 38.58% of the total), followed by the SYMP (12,904 cases), DISE (10,079 cases) and CHEM (6,834 cases). These 4 most common types of named entities thus accounted for about 82% of the total 68,460 entities, with the remaining 6 types accounting for 18%.<br><br>
 
 |Entity Type (Tag)|#Train (Ratio%)|#Test (Ratio%)|
 |:---:|:---:|:---:|
@@ -44,6 +44,8 @@ A total of 10 entity types are described and some examples are provided in Table
 - sentence : <String> a sentence is represented in terms of character sequence 
 - word : <List> a list of segmented word sequence
 - word_label : <List> a list of the correpsonding word labels
+- character : <List> a list of segmented character sequence
+- character_label : <List> a list of the corresponding character labels
 	
 ## Example 範例
 
@@ -53,6 +55,9 @@ A total of 10 entity types are described and some examples are provided in Table
 &emsp;&emsp;&emsp;&emsp;"sentence": "如何治療胃食道逆流症？",<br>
 &emsp;&emsp;&emsp;&emsp;"word": ["如何", "治療", "胃食道逆流症", "？"],<br>
 &emsp;&emsp;&emsp;&emsp;"word_label": ["O", "O", "DISE", "O"]<br>
+&emsp;&emsp;&emsp;&emsp;"character": ["如", "何", "治", "療", "胃", "食", "道", "逆", "流", "症", "？"],<br>
+&emsp;&emsp;&emsp;&emsp;"character_label": ["O", "O", "O", "O", "B-DISE", "I-DISE", "I-DISE", "I-DISE", "I-DISE", "I-DISE", "O"]<br>
+	
 }<br>
 
 {<br>
@@ -61,6 +66,8 @@ A total of 10 entity types are described and some examples are provided in Table
 &emsp;&emsp;&emsp;&emsp;"sentence": "修復肌肉與骨骼最重要的便是熱量、蛋白質與鈣質。",<br>
 &emsp;&emsp;&emsp;&emsp;"word": ["修復", "肌肉", "與", "骨骼", "最", "重要", "的", "便是", "熱量", "、", "蛋白質", "與", "鈣質", "。"],<br>
 &emsp;&emsp;&emsp;&emsp;"word_label": ["O", "BODY", "O", "BODY", "O", "O", "O", "O", "O", "O", "CHEM", "O", "CHEM", "O"]<br>
+&emsp;&emsp;&emsp;&emsp;"character": ["修", "復", "肌", "肉", "與", "骨", "骼", "最", "重", "要", "的", "便", "是", "熱", "量", "、", "蛋", "白", "質", "與", "鈣", "質", "。"],<br>
+&emsp;&emsp;&emsp;&emsp;"character_label": ["O", "O", "B-BODY", "I-BODY", "O", "B-BODY", "I-BODY", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-CHEM", "I-CHEM", "I-CHEM", "O", "B-CHEM", "I-CHEM", "O"]<br>
 }<br>
 
 ## Reference 參考文獻  
