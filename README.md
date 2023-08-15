@@ -70,7 +70,7 @@ A total of 10 entity types are described and some examples are provided in Table
 &emsp;&emsp;&emsp;&emsp;"character_label": ["O", "O", "B-BODY", "I-BODY", "O", "B-BODY", "I-BODY", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-CHEM", "I-CHEM", "I-CHEM", "O", "B-CHEM", "I-CHEM", "O"]<br>
 }<br>
 
-## Reference 參考文獻  
+## Citation 引用  
 
 For more information please refer to our IEEE JBHI Paper: https://ieeexplore.ieee.org/document/9312396
 
