@@ -1,6 +1,6 @@
 # Chinese HealthNER Corpus
 
-Chinese <strong>Health</strong>care <strong>N</strong>amed <strong>E</strong>ntity <strong>R</strong>ecognition <strong>(HealthNER)</strong> Corpus is collected and annotated by NCUEE NLP Lab. (http://nlp.ee.ncu.edu.tw/)  
+Chinese <strong>Health</strong>care <strong>N</strong>amed <strong>E</strong>ntity <strong>R</strong>ecognition <strong>(HealthNER)</strong> Corpus is collected and annotated by NYCU NLP Lab. (https://ainlp.tw/)  
 
 We firstly crawled articles from websites that provide healthcare information, online health-related news and medical question/answer forums. We then removed all HTML tags, images, videos and embedded web advertisements and split the remaining texts into several sentences. We randomly selected partial sentences to retain content diversity for manual annotation.
 
